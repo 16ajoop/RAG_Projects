@@ -1,0 +1,9 @@
+pymupdf
+langchain
+langchain-text-splitters
+chromadb
+langchain-ollama
+fastapi
+uvicorn
+streamlit
+python-dotenv
