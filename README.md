@@ -50,3 +50,11 @@ Query Decomposition
 Agentic RAG
    ↓
 More Advanced RAG Architectures
+
+```
+## Projects 
+      
+      | Project            | Main approach                                                                              | Classification    |
+      | ------------------ | ------------------------------------------------------------------------------------------ | ----------------- |
+      | Naive RAG          | Chunk → Embed → Vector DB → Top-K retrieval → LLM                                          | Naive / Basic RAG |
+      | RAG Query Analyzer | Query analysis → expansion/decomposition → routing → Vector + BM25 → RRF → reranking → LLM | Advanced RAG      |
