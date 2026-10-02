@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-ollama
+langgraph
+pydantic
+python-dotenv
+
+langchain-community
+
+chromadb
+
+langchain-chroma
+
+rank-bm25

@@ -1,0 +1,78 @@
+Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation combines information retrieval with
+language generation. RAG retrieves relevant information from an
+external knowledge source and provides that information to a language
+model as context.
+
+RAG can help reduce hallucinations because the language model can use
+retrieved information when generating an answer. The quality of the
+retrieved context has a direct impact on the quality of the generated
+answer.
+
+
+Large Language Model Hallucinations
+
+Hallucination occurs when a language model generates information that
+is incorrect, unsupported, or not grounded in reliable evidence.
+
+Hallucinations can occur because language models generate text based
+on patterns learned during training. Without access to relevant
+external information, the model may produce plausible but incorrect
+answers.
+
+
+RLHF
+
+Reinforcement Learning from Human Feedback (RLHF) is a training
+approach where human preferences are used to improve the behavior of
+a language model.
+
+RLHF can encourage models to produce responses that are more helpful,
+harmless, and aligned with human preferences. However, alignment
+training does not guarantee that every factual statement generated
+by the model is correct.
+
+
+DPO
+
+Direct Preference Optimization (DPO) is a preference optimization
+method for training language models.
+
+DPO uses preference data to optimize the model directly without
+requiring a separate reinforcement learning stage. Like other
+alignment methods, DPO can improve response preferences but does not
+by itself guarantee factual correctness.
+
+
+Verification-Based Approaches
+
+Verification-based approaches attempt to check generated information
+against evidence or external sources.
+
+A verification system may generate an answer, retrieve supporting
+evidence, and then check whether the answer is consistent with that
+evidence. These approaches can help identify unsupported claims and
+factual errors.
+
+
+Hybrid Retrieval
+
+Hybrid retrieval combines multiple retrieval methods.
+
+Vector retrieval focuses on semantic similarity between a query and
+documents. BM25 focuses on keyword and term matching.
+
+Combining vector retrieval with BM25 can improve retrieval because
+semantic search and keyword search can identify relevant documents
+from different perspectives.
+
+
+Graph Retrieval
+
+Graph-based retrieval represents information as entities and
+relationships.
+
+Graph retrieval can be useful when relationships between entities are
+important to the user's query. Instead of retrieving only similar
+text, the system can follow relationships between connected entities.
