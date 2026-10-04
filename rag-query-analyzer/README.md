@@ -216,7 +216,7 @@ Navigate to the project:
 
 Activate it on Windows:
 
-        .venv\Scripts\activate
+        .\.venv\Scripts\Activate.ps1
     
 3. Install dependencies
  
