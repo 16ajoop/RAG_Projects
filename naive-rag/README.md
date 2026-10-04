@@ -141,3 +141,63 @@ The user can:
 2. Submit the question
 3. View the generated answer
 4. View retrieved source information
+
+
+
+### Commands to run the project 
+Terminal 1:
+
+      venv\Scripts\activate
+      python -m uvicorn api.main:app --reload
+
+Terminal 2:
+
+      venv\Scripts\activate
+      python -m streamlit run frontend/app.py
+
+## List of Questions
+1. What are the company's working hours?
+2. How many annual leave days do employees get?
+3. How many paid sick leave days do employees get?
+4. How much is the annual learning allowance?
+5.  Within how many days must travel expense claims be submitted?
+   
+### working hours
+6. What days do employees work?
+7. What time does the workday start?
+8. What time does the workday end?
+9. How long is the lunch break?
+10. When is the lunch break?
+
+### Leave
+11. How many days of sick leave are provided?
+12. How many annual leave days are provided per year?
+13. How many paid leaves do employees receive?
+14. What is the company's maternity leave policy?
+
+### Learning & benefits
+15. What is the employee learning allowance?
+16. What can the learning allowance be used for?
+17. Who is eligible for the learning allowance?
+18. How much does the company provide for learning and development?
+
+### Travel & expenses
+19. How long do employees have to submit travel expense claims?
+20. When should travel expense claims be submitted?
+21. What is the deadline for submitting business travel expenses?
+22. How many calendar days are allowed for travel claims?
+
+### Remote work
+23. What is the company's remote work policy?
+24. Are employees allowed to work remotely?
+25. What are the rules for remote work?
+
+### Security
+26. What are the company's security policies?
+27. What security practices are employees expected to follow?
+28. What should employees do to protect company information?
+
+### Code of conduct
+29. What is the company's code of conduct?
+30. What behavior is expected from employees?
+31. What are the workplace conduct guidelines?
