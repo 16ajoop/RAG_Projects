@@ -4,4 +4,3 @@ __pycache__/
 *.pyc
 .env
 data/chroma_db/
-app/vectorstore/__pycache__/
