@@ -33,6 +33,7 @@ A Graph Retrieval-Augmented Generation (GraphRAG) project that combines knowledg
 | Docker | Running FalkorDB |
 
 ## Architecture
+<img width="1836" height="377" alt="image" src="https://github.com/user-attachments/assets/26da6445-988b-48e7-8567-b62e06028539" />
 
 ```text
 PDF Documents
