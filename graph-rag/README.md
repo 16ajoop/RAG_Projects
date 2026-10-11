@@ -32,47 +32,44 @@ A Graph Retrieval-Augmented Generation (GraphRAG) project that combines knowledg
 | RRF | Combining retrieval results |
 | Docker | Running FalkorDB |
 
-## Architecture
+# Architecture
 <img width="1836" height="377" alt="image" src="https://github.com/user-attachments/assets/26da6445-988b-48e7-8567-b62e06028539" />
 
-```text
-PDF Documents
-     |
-     v
-Text Extraction and Cleaning
-     |
-     v
-Text Chunking
-     |
-     v
-Entity and Relationship Extraction
-     |
-     v
-Knowledge Graph -----> FalkorDB
-     |
-     v
-Community Detection
-     |
-     v
-Query Analysis
-     |
-     +----> Graph Retrieval
-     |
-     +----> Vector Retrieval
-                  |
-                  v
-          Hybrid Retrieval
-                  |
-                  v
-             RRF Fusion
-                  |
-                  v
-          Context and LLM
-                  |
-                  v
-             Final Answer
-```
+## Layer 1 — Document Ingestion
+Input and preprocessing
+- Source PDF
+- PDF Loader — PyMuPDF
+- Text Cleaner
+- Section-Aware Chunker
+- Extracted Text Chunks`
 
+## Layer 2 — Extraction Pipeline
+Converts unstructured text into structured facts 
+- Ollama LLM — Llama 3.2
+- Entity Extractor
+- Relationship Extractor
+- Graph Builder
+- Graph Data / JSON
+
+## Layer 3 — Storage and Graph Analysis
+- FalkorDB : entities as nodes, relationships as edges
+- ChromaDB : vector embeddings and documents similarity search
+- NetworkX : graph community detection
+
+## Layer 4 — Query and Retrieval
+- User Question
+- Query Embedding
+- Vector Search — top-k chunks
+- Graph Query — related nodes and edges
+- Context Assembly
+  
+## Layer 5 — Generation and Output
+- Retrieved Context
+- Prompt Construction
+- Ollama — Llama 3.2
+- Grounded Answer
+- User Output
+  
 ## Prerequisites
 
 - Python 3.12
