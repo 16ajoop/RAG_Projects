@@ -1,0 +1,32 @@
+# Document Processing
+pymupdf
+
+# LangChain
+langchain
+langchain-community
+langchain-ollama
+
+# Vector Database
+chromadb
+
+# Graph Database
+falkordb
+
+# Retrieval
+rank-bm25
+
+# API
+fastapi
+uvicorn
+
+# Frontend
+streamlit
+
+# Environment Variables
+python-dotenv
+
+# Data Processing
+numpy
+pandas
+# Graph Analysis
+networkx

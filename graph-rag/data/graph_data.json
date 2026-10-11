@@ -1,0 +1,626 @@
+{
+  "entities": [
+    {
+      "name": "GraphRAG project",
+      "type": "PROJECT"
+    },
+    {
+      "name": "AITech Solutions",
+      "type": "COMPANY"
+    },
+    {
+      "name": "Chennai",
+      "type": "LOCATION"
+    },
+    {
+      "name": "India",
+      "type": "LOCATION"
+    },
+    {
+      "name": "Ananya Sharma",
+      "type": "PERSON"
+    },
+    {
+      "name": "Rahul Mehta",
+      "type": "PERSON"
+    },
+    {
+      "name": "Vikram Rao",
+      "type": "PERSON"
+    },
+    {
+      "name": "Meera Iyer",
+      "type": "PERSON"
+    },
+    {
+      "name": "Karan Singh",
+      "type": "PERSON"
+    },
+    {
+      "name": "AI Research",
+      "type": "DEPARTMENT"
+    },
+    {
+      "name": "AI Research Lead",
+      "type": "ROLE"
+    },
+    {
+      "name": "Data Engineering",
+      "type": "DEPARTMENT"
+    },
+    {
+      "name": "Bengaluru",
+      "type": "LOCATION"
+    },
+    {
+      "name": "Senior Data Engineer",
+      "type": "ROLE"
+    },
+    {
+      "name": "Cloud Platform",
+      "type": "DEPARTMENT"
+    },
+    {
+      "name": "Hyderabad",
+      "type": "LOCATION"
+    },
+    {
+      "name": "Cloud Architect",
+      "type": "ROLE"
+    },
+    {
+      "name": "Product Engineering",
+      "type": "DEPARTMENT"
+    },
+    {
+      "name": "Product Manager",
+      "type": "ROLE"
+    },
+    {
+      "name": "Cybersecurity",
+      "type": "DEPARTMENT"
+    },
+    {
+      "name": "Pune",
+      "type": "LOCATION"
+    },
+    {
+      "name": "Security Engineer",
+      "type": "ROLE"
+    },
+    {
+      "name": "Priya Nair",
+      "type": "PERSON"
+    },
+    {
+      "name": "Machine Learning Engineer",
+      "type": "ROLE"
+    },
+    {
+      "name": "Arjun Patel",
+      "type": "PERSON"
+    },
+    {
+      "name": "Data Engineer",
+      "type": "ROLE"
+    },
+    {
+      "name": "Sneha Kapoor",
+      "type": "PERSON"
+    },
+    {
+      "name": "Cloud Engineer",
+      "type": "ROLE"
+    },
+    {
+      "name": "Rohan Das",
+      "type": "PERSON"
+    },
+    {
+      "name": "Backend Engineer",
+      "type": "ROLE"
+    },
+    {
+      "name": "Divya Menon",
+      "type": "PERSON"
+    },
+    {
+      "name": "Security Analyst",
+      "type": "ROLE"
+    },
+    {
+      "name": "Pooja V",
+      "type": "PERSON"
+    },
+    {
+      "name": "AI & Data Science Engineer",
+      "type": "ROLE"
+    },
+    {
+      "name": "GraphMind",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Python",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Neo4j-compatible graph concepts",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "ChromaDB",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Ollama",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "FastAPI",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "DataFlow",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Apache Spark",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "PostgreSQL",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Apache Airflow",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "CloudPulse",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Kubernetes",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Prometheus",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Grafana",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "AITechERP",
+      "type": "PROJECT"
+    },
+    {
+      "name": "React",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Docker",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "SecureVision",
+      "type": "PROJECT"
+    },
+    {
+      "name": "PyTorch",
+      "type": "TECHNOLOGY"
+    },
+    {
+      "name": "Elasticsearch",
+      "type": "TECHNOLOGY"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "AITech Solutions",
+      "relationship": "LOCATED_IN",
+      "target": "Chennai"
+    },
+    {
+      "source": "AITech Solutions",
+      "relationship": "LOCATED_IN",
+      "target": "India"
+    },
+    {
+      "source": "Ananya Sharma",
+      "relationship": "WORKS_IN",
+      "target": "AI Research"
+    },
+    {
+      "source": "Ananya Sharma",
+      "relationship": "LOCATED_IN",
+      "target": "Chennai"
+    },
+    {
+      "source": "Ananya Sharma",
+      "relationship": "HAS_ROLE",
+      "target": "AI Research Lead"
+    },
+    {
+      "source": "Rahul Mehta",
+      "relationship": "WORKS_IN",
+      "target": "Data Engineering"
+    },
+    {
+      "source": "Rahul Mehta",
+      "relationship": "LOCATED_IN",
+      "target": "Bengaluru"
+    },
+    {
+      "source": "Rahul Mehta",
+      "relationship": "HAS_ROLE",
+      "target": "Senior Data Engineer"
+    },
+    {
+      "source": "Vikram Rao",
+      "relationship": "WORKS_IN",
+      "target": "Cloud Platform"
+    },
+    {
+      "source": "Vikram Rao",
+      "relationship": "LOCATED_IN",
+      "target": "Hyderabad"
+    },
+    {
+      "source": "Vikram Rao",
+      "relationship": "HAS_ROLE",
+      "target": "Cloud Architect"
+    },
+    {
+      "source": "Meera Iyer",
+      "relationship": "WORKS_IN",
+      "target": "Product Engineering"
+    },
+    {
+      "source": "Meera Iyer",
+      "relationship": "LOCATED_IN",
+      "target": "Chennai"
+    },
+    {
+      "source": "Meera Iyer",
+      "relationship": "HAS_ROLE",
+      "target": "Product Manager"
+    },
+    {
+      "source": "Karan Singh",
+      "relationship": "WORKS_IN",
+      "target": "Cybersecurity"
+    },
+    {
+      "source": "Karan Singh",
+      "relationship": "LOCATED_IN",
+      "target": "Pune"
+    },
+    {
+      "source": "Karan Singh",
+      "relationship": "HAS_ROLE",
+      "target": "Security Engineer"
+    },
+    {
+      "source": "Priya Nair",
+      "relationship": "WORKS_IN",
+      "target": "AI Research"
+    },
+    {
+      "source": "Priya Nair",
+      "relationship": "LOCATED_IN",
+      "target": "Chennai"
+    },
+    {
+      "source": "Priya Nair",
+      "relationship": "HAS_ROLE",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "source": "Arjun Patel",
+      "relationship": "WORKS_IN",
+      "target": "Data Engineering"
+    },
+    {
+      "source": "Arjun Patel",
+      "relationship": "LOCATED_IN",
+      "target": "Bengaluru"
+    },
+    {
+      "source": "Arjun Patel",
+      "relationship": "HAS_ROLE",
+      "target": "Data Engineer"
+    },
+    {
+      "source": "Sneha Kapoor",
+      "relationship": "WORKS_IN",
+      "target": "Cloud Platform"
+    },
+    {
+      "source": "Sneha Kapoor",
+      "relationship": "LOCATED_IN",
+      "target": "Hyderabad"
+    },
+    {
+      "source": "Sneha Kapoor",
+      "relationship": "HAS_ROLE",
+      "target": "Cloud Engineer"
+    },
+    {
+      "source": "Rohan Das",
+      "relationship": "WORKS_IN",
+      "target": "Product Engineering"
+    },
+    {
+      "source": "Rohan Das",
+      "relationship": "LOCATED_IN",
+      "target": "Chennai"
+    },
+    {
+      "source": "Rohan Das",
+      "relationship": "HAS_ROLE",
+      "target": "Backend Engineer"
+    },
+    {
+      "source": "Divya Menon",
+      "relationship": "WORKS_IN",
+      "target": "Cybersecurity"
+    },
+    {
+      "source": "Divya Menon",
+      "relationship": "LOCATED_IN",
+      "target": "Pune"
+    },
+    {
+      "source": "Divya Menon",
+      "relationship": "HAS_ROLE",
+      "target": "Security Analyst"
+    },
+    {
+      "source": "Pooja V",
+      "relationship": "WORKS_IN",
+      "target": "AI Research"
+    },
+    {
+      "source": "Pooja V",
+      "relationship": "LOCATED_IN",
+      "target": "Chennai"
+    },
+    {
+      "source": "Pooja V",
+      "relationship": "HAS_ROLE",
+      "target": "AI & Data Science Engineer"
+    },
+    {
+      "source": "Priya Nair",
+      "relationship": "REPORTS_TO",
+      "target": "Ananya Sharma"
+    },
+    {
+      "source": "Pooja V",
+      "relationship": "REPORTS_TO",
+      "target": "Ananya Sharma"
+    },
+    {
+      "source": "Arjun Patel",
+      "relationship": "REPORTS_TO",
+      "target": "Rahul Mehta"
+    },
+    {
+      "source": "Rohan Das",
+      "relationship": "REPORTS_TO",
+      "target": "Meera Iyer"
+    },
+    {
+      "source": "Divya Menon",
+      "relationship": "REPORTS_TO",
+      "target": "Karan Singh"
+    },
+    {
+      "source": "Ananya Sharma",
+      "relationship": "WORKS_ON",
+      "target": "GraphMind"
+    },
+    {
+      "source": "GraphMind",
+      "relationship": "SUPPORTS",
+      "target": "AI Research"
+    },
+    {
+      "source": "GraphMind",
+      "relationship": "SUPPORTS",
+      "target": "Data Engineering"
+    },
+    {
+      "source": "GraphMind",
+      "relationship": "USES",
+      "target": "Python"
+    },
+    {
+      "source": "GraphMind",
+      "relationship": "USES",
+      "target": "Neo4j-compatible graph concepts"
+    },
+    {
+      "source": "GraphMind",
+      "relationship": "USES",
+      "target": "ChromaDB"
+    },
+    {
+      "source": "GraphMind",
+      "relationship": "USES",
+      "target": "Ollama"
+    },
+    {
+      "source": "GraphMind",
+      "relationship": "USES",
+      "target": "FastAPI"
+    },
+    {
+      "source": "Rahul Mehta",
+      "relationship": "WORKS_ON",
+      "target": "DataFlow"
+    },
+    {
+      "source": "DataFlow",
+      "relationship": "SUPPORTS",
+      "target": "Data Engineering"
+    },
+    {
+      "source": "DataFlow",
+      "relationship": "SUPPORTS",
+      "target": "Cloud Platform"
+    },
+    {
+      "source": "DataFlow",
+      "relationship": "USES",
+      "target": "Python"
+    },
+    {
+      "source": "DataFlow",
+      "relationship": "USES",
+      "target": "Apache Spark"
+    },
+    {
+      "source": "DataFlow",
+      "relationship": "USES",
+      "target": "PostgreSQL"
+    },
+    {
+      "source": "DataFlow",
+      "relationship": "USES",
+      "target": "Apache Airflow"
+    },
+    {
+      "source": "Vikram Rao",
+      "relationship": "WORKS_ON",
+      "target": "CloudPulse"
+    },
+    {
+      "source": "CloudPulse",
+      "relationship": "SUPPORTS",
+      "target": "Cloud Platform"
+    },
+    {
+      "source": "CloudPulse",
+      "relationship": "SUPPORTS",
+      "target": "Cybersecurity"
+    },
+    {
+      "source": "CloudPulse",
+      "relationship": "USES",
+      "target": "Microsoft Azure"
+    },
+    {
+      "source": "CloudPulse",
+      "relationship": "USES",
+      "target": "Kubernetes"
+    },
+    {
+      "source": "CloudPulse",
+      "relationship": "USES",
+      "target": "Prometheus"
+    },
+    {
+      "source": "CloudPulse",
+      "relationship": "USES",
+      "target": "Grafana"
+    },
+    {
+      "source": "Meera Iyer",
+      "relationship": "WORKS_ON",
+      "target": "AITechERP"
+    },
+    {
+      "source": "AITechERP",
+      "relationship": "SUPPORTS",
+      "target": "Product Engineering"
+    },
+    {
+      "source": "AITechERP",
+      "relationship": "SUPPORTS",
+      "target": "Cybersecurity"
+    },
+    {
+      "source": "AITechERP",
+      "relationship": "USES",
+      "target": "React"
+    },
+    {
+      "source": "AITechERP",
+      "relationship": "USES",
+      "target": "FastAPI"
+    },
+    {
+      "source": "AITechERP",
+      "relationship": "USES",
+      "target": "PostgreSQL"
+    },
+    {
+      "source": "AITechERP",
+      "relationship": "USES",
+      "target": "Docker"
+    },
+    {
+      "source": "Karan Singh",
+      "relationship": "WORKS_ON",
+      "target": "SecureVision"
+    },
+    {
+      "source": "SecureVision",
+      "relationship": "SUPPORTS",
+      "target": "Cybersecurity"
+    },
+    {
+      "source": "SecureVision",
+      "relationship": "SUPPORTS",
+      "target": "AI Research"
+    },
+    {
+      "source": "SecureVision",
+      "relationship": "USES",
+      "target": "Python"
+    },
+    {
+      "source": "SecureVision",
+      "relationship": "USES",
+      "target": "PyTorch"
+    },
+    {
+      "source": "SecureVision",
+      "relationship": "USES",
+      "target": "FastAPI"
+    },
+    {
+      "source": "SecureVision",
+      "relationship": "USES",
+      "target": "Elasticsearch"
+    },
+    {
+      "source": "Ananya Sharma",
+      "relationship": "COLLABORATES_WITH",
+      "target": "Rahul Mehta"
+    },
+    {
+      "source": "Pooja V",
+      "relationship": "COLLABORATES_WITH",
+      "target": "Ananya Sharma"
+    },
+    {
+      "source": "Rahul Mehta",
+      "relationship": "COLLABORATES_WITH",
+      "target": "Vikram Rao"
+    },
+    {
+      "source": "Cloud Platform",
+      "relationship": "COLLABORATES_WITH",
+      "target": "Data Engineering"
+    }
+  ]
+}
