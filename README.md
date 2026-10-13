@@ -62,8 +62,6 @@ More Advanced RAG Architectures
       |                    | → Community detection and summaries → Graph + Vector retrieval → Hybrid fusion → LLM       |                   |
 
 
-# GraphRAG
-<img width="1782" height="396" alt="Screenshot 2026-10-11 174600" src="https://github.com/user-attachments/assets/c662ba74-9783-490d-9227-03460020d7a4" />
 
 
       
