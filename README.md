@@ -59,7 +59,7 @@ More Advanced RAG Architectures
       | Naive RAG          | Chunk → Embed → Vector DB → Top-K retrieval → LLM                                          | Naive / Basic RAG |
       | RAG Query Analyzer | Query analysis → expansion/decomposition → routing → Vector + BM25 → RRF → reranking → LLM | Advanced RAG      |
       | GraphRAG           | Document processing → Entity and relationship extraction → Knowledge graph                 | Graph-Based RAG   |
-      |                    |  → Community detection and summaries → Graph + Vector retrieval → Hybrid fusion → LLM      |                   |
+      |                    | → Community detection and summaries → Graph + Vector retrieval → Hybrid fusion → LLM       |                   |
 
 
 # GraphRAG
